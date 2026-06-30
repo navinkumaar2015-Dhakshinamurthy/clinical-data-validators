@@ -1,11 +1,11 @@
-﻿from setuptools import setup, find_packages
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
     name="clinical-data-validators",
-    version="0.4.0",
+    version='1.0.0',
     author="Navin Kumar",
     description="A library for validating clinical data quality",
     long_description=long_description,
@@ -21,3 +21,4 @@ setup(
         "Operating System :: OS Independent",
     ],
 )
+
